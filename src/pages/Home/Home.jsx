@@ -1,4 +1,5 @@
 import Header from "../../components/Global/Header";
+import About from "../../components/Global/Home/About";
 import Services from "../../components/Global/Home/Services";
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
     <div>
       <Header />
       <Services />
+      <About />
     </div>
   );
 }

@@ -125,7 +125,7 @@ function Services() {
         </div>
       </div>
 
-      <div className="mt-10 flex justify-end gap-0.5 text-right font-semibold">
+      <div className="mt-10 flex justify-end gap-0.5 text-right font-semibold cursor-pointer">
         <h2>
           Learn More <span className="text-[#F00]">about our values</span>
           <div className="border-red-500 bg-red-500 rounded-full w-4 h-0.5 flex-shrink-0 "></div>
