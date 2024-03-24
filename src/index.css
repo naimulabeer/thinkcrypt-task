@@ -5,6 +5,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
 .cav-font {
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
