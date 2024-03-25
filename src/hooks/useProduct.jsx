@@ -8,8 +8,9 @@ function useProducts() {
       "https://thinkcrypt-backend-404c5b8ec31f.herokuapp.com/api/v0/products"
     )
       .then((res) => res.json())
-      .then((data) => setProducts(data));
+      .then((data) => setProducts(data.doc)); // Ensure to access the 'doc' array from the response
   }, []);
+
   return products;
 }
 

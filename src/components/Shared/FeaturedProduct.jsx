@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ProductLists from "./ProductLists";
 
 function FeaturedProduct() {
@@ -153,13 +154,16 @@ function FeaturedProduct() {
         </div>
       </div>
 
-      <div className="mt-20 px-40 flex justify-end gap-0.5 text-right font-semibold cursor-pointer">
+      <Link
+        to="products"
+        className="mt-20 px-40 flex justify-end gap-0.5 text-right font-semibold cursor-pointer"
+      >
         <h2>
           Explore All <span className="text-[#F00]">our products</span>
           <div className="border-red-500 bg-red-500 rounded-full w-4 h-0.5 flex-shrink-0 "></div>
         </h2>
         <img src="back.svg" alt="back" />
-      </div>
+      </Link>
 
       <ProductLists />
     </div>

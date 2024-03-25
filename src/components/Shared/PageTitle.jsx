@@ -8,7 +8,7 @@ function PageTitle({ mainText, highlightText, color, secondaryColor }) {
         <span className={`text-${secondaryColor}`}>{highlightText}</span>
       </h1>
       <div
-        className={`border-${secondaryColor} bg-${secondaryColor} rounded-full w-16 h-1 flex-shrink-0`}
+        className={`border-${secondaryColor} bg-${secondaryColor} rounded-full w-16 h-2 flex-shrink-0`}
       ></div>
     </div>
   );
