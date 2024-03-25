@@ -1,10 +1,14 @@
+import PageTitle from "../../Shared/PageTitle";
+
 function Blog() {
   return (
     <div className="mt-20 mb-20 px-40">
-      <h1 className="text-5xl font-bold text-[#4C372E]">
-        Our <span className="text-[#FF0000]">Blog</span>
-      </h1>
-      <div className="border-red-500 bg-red-500 rounded-full w-16 h-1 flex-shrink-0"></div>
+      <PageTitle
+        mainText="Our"
+        highlightText="Blog"
+        color="#4C372E"
+        secondaryColor="red-500"
+      />
 
       <div className="mt-20 mb-20 flex gap-10">
         <div className="mt-10 w-1/2 flex flex-col gap-6">
