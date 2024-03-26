@@ -4,6 +4,10 @@
 
 LiveFresh is an online platform for purchasing high-quality, fresh meat products delivered straight to your doorstep. With a wide range of options and convenient features, LiveFresh makes it easy to find and order your favorite meats with just a few clicks.
 
+# Live Link
+
+[Thinkcrypt-Intern Live Fresh live site link](https://thinkcrypt-livefresh.netlify.app/)
+
 ## Features
 
 1. **Product Catalog:** Browse through a diverse selection of fresh meat products, including chicken, beef, and sides, conveniently categorized for easy navigation.
