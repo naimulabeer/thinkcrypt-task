@@ -1,5 +1,4 @@
 import { Link, useNavigate } from "react-router-dom";
-import "./error.styles.css";
 
 import { HomeIcon, ArrowUturnLeftIcon } from "@heroicons/react/24/solid";
 
@@ -12,7 +11,7 @@ function Error() {
       <h1 className="text-4xl font-bold mt-4">
         Sorry, we could not find the page you are looking for.
       </h1>
-      <div className="flex">
+      <div className="mt-10 flex justify-between items-center gap-10">
         <button className="btn" onClick={() => navigate(-1)}>
           <ArrowUturnLeftIcon width={20} />
           <span>Go Back</span>
