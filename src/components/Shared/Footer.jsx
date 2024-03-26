@@ -1,8 +1,8 @@
 function Footer() {
   return (
     <div className="bg-[#F5F5F5]">
-      <div className="flex justify-center">
-        <div className="flex flex-col p-40 gap-4">
+      <div className="flex flex-col lg:flex-row justify-center">
+        <div className="flex flex-col lg:p-40 gap-4">
           <div>
             <h1 className={`text-xl font-bold text-[#424242]`}>
               Contact
@@ -29,7 +29,7 @@ function Footer() {
             <span className="font-bold">Email:</span> info@livefresh.com
           </p>
         </div>
-        <div className="mt-40 flex justify-evenly gap-14">
+        <div className="lg:mt-40 mt-10 mb-4 lg:mb-0 flex justify-evenly gap-4 lg:gap-14">
           <div className="flex flex-col gap-5 cursor-pointer">
             <h1 className="font-bold text-xl">Navigation</h1>
             <p>Home</p>
@@ -50,7 +50,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mb-2">
+      <div className="flex justify-center mb-2 px-2">
         <h1>Copyright © 2022, Live Fresh Agro | All rights reserved.</h1>
       </div>
     </div>

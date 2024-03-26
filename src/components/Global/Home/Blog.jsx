@@ -2,7 +2,7 @@ import PageTitle from "../../Shared/PageTitle";
 
 function Blog() {
   return (
-    <div className="mt-20 mb-20 px-40">
+    <div className="mt-20 mb-20 lg:px-40">
       <PageTitle
         mainText="Our"
         highlightText="Blog"
@@ -10,12 +10,12 @@ function Blog() {
         secondaryColor="red-500"
       />
 
-      <div className="mt-20 mb-20 flex gap-10">
-        <div className="mt-10 w-1/2 flex flex-col gap-6">
-          <h1 className="w-2/3 text-4xl font-bold">
+      <div className="mt-20 mb-20 flex flex-col lg:flex-row gap-10">
+        <div className="mt-10 lg:w-1/2 flex flex-col gap-6">
+          <h1 className="lg:w-2/3 text-4xl font-bold">
             12 Types of Steak & How to Cook Them
           </h1>
-          <p className="w-2/3">
+          <p className="lg:w-2/3">
             There’s nothing better than a steak dinner, but understanding the
             many different types of steak can be confusing! Knowing how to
             choose the best steak cuts by tenderness, flavor and price is all
@@ -30,10 +30,10 @@ function Blog() {
           </div>
         </div>
         <div>
-          <img className="w-fit" src="blog.png" alt="blog" />
+          <img className="px-2" src="blog.png" alt="blog" />
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-1 ">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-1 ">
         <div className="flex flex-col gap-3 w-11/12">
           <img src="blog1.png" alt="blog1" />
           <h1 className="text-2xl font-bold ">Sous Vide Round Steak</h1>

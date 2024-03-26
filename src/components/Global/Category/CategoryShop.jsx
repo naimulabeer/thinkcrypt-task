@@ -4,7 +4,7 @@ import SearchFilter from "./SearchFilter";
 
 function CategoryShop() {
   return (
-    <div className="mt-20 mb-20 px-40">
+    <div className="mt-20 mb-20 lg:px-40">
       <PageTitle
         mainText="Shop by"
         highlightText="Category"
@@ -12,7 +12,7 @@ function CategoryShop() {
         secondaryColor="red-500"
       />
 
-      <div className="mt-10 grid grid-cols-5 gap-2 justify-center cursor-pointer">
+      <div className="mt-10 grid grid-cols-2 lg:grid-cols-5 gap-2 justify-center cursor-pointer">
         <div className="flex bg-[#F5F5F5] flex-col gap-6 justify-center items-center py-10 font-bold text-center">
           <img src="chicken.png" alt="chicken" />
           <h2>Chicken</h2>
@@ -35,7 +35,7 @@ function CategoryShop() {
         </div>
       </div>
 
-      <div className="mt-10 bg-[#F5F5F5] flex justify-between p-20">
+      <div className="mt-10 bg-[#F5F5F5] flex flex-col lg:flex-row justify-between lg:p-20">
         <SearchFilter />
         <CategoryList />
       </div>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function ProductNavbar() {
   return (
-    <div className="flex justify-between items-center w-full backdrop-blur-sm px-32 py-5">
+    <div className="flex justify-between items-center w-full backdrop-blur-sm lg:px-32 lg:py-5">
       <div className="flex gap-4 cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ function ProductNavbar() {
         </svg>
 
         <input
-          className="border rounded-3xl w-60 px-4 "
+          className="border hidden lg:block rounded-3xl w-60 px-4 "
           type="text"
           placeholder="What are you looking for?"
         />

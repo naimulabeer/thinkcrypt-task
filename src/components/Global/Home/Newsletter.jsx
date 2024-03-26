@@ -11,14 +11,14 @@ function Newsletter() {
           color="#424242"
           secondaryColor="red-500"
         />
-        <h2 className="text-2xl px-40 w-2/3">
+        <h2 className="text-2xl lg:px-40 lg:w-2/3">
           Subscribe to our Newsletter and get exclusive updates, amazing offers
           & discounts
         </h2>
 
         <div className="flex justify-center mt-10">
           <input
-            className="w-[650px] px-2 border rounded-s"
+            className="lg:w-[650px] px-2 border rounded-s"
             type="text"
             placeholder="Enter your e-mail"
           />

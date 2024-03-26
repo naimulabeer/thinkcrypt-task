@@ -1,6 +1,6 @@
 function SearchFilter() {
   return (
-    <div className="w-1/4 h-fit bg-[#F5F5F5] rounded-lg border border-red-100">
+    <div className="lg:w-1/4 h-fit bg-[#F5F5F5] rounded-lg border border-red-100">
       <div className="flex flex-col justify-center font-bold gap-3 px-4 py-10">
         <h1 className="font-semibold">Results: 12 Products Found</h1>
         <p>Location</p>

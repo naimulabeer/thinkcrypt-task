@@ -2,7 +2,7 @@ function Banner() {
   return (
     <div className="relative">
       <img
-        className="w-full h-screen object-cover backdrop-opacity-40"
+        className="w-fit lg:w-full h-screen object-cover backdrop-opacity-40"
         src="banner.png"
         alt="banner"
       />

@@ -2,19 +2,19 @@ import PageTitle from "../../Shared/PageTitle";
 
 function Testimonial() {
   return (
-    <div className="mt-20 mb-20 px-40">
+    <div className="mt-20 mb-20 lg:px-40">
       <PageTitle
         mainText="What our clients are saying"
         color="#4C372E"
         secondaryColor="red-500"
       />
 
-      <div className="flex gap-4">
+      <div className="flex lg:flex-row flex-col gap-4 px-2">
         <div className="mt-20 flex gap-10">
           <div className="w-2 h-40 mt-10 bg-red-500"></div>
           <div className="flex flex-col gap-4">
             <span className="text-[#FF0000] font-extrabold text-4xl">“</span>
-            <p className="text-[#424242] w-1/2">
+            <p className="text-[#424242] lg:w-1/2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -29,7 +29,7 @@ function Testimonial() {
           <div className="w-2 h-40 mt-10 bg-red-500"></div>
           <div className="flex flex-col gap-4">
             <span className="text-[#FF0000] font-extrabold text-4xl ">“</span>
-            <p className="text-[#424242] w-1/2 ">
+            <p className="text-[#424242] lg:w-1/2 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -52,7 +52,7 @@ function Testimonial() {
         secondaryColor="red-500"
       />
       <div className="mt-10 mb-10">
-        <p>
+        <p className="px-2">
           LiveFresh is currently supplying the required quantity of the quality
           meat in ACI Limited and Banglacut as a trusted supplier. We are also
           partnered to provide the solution of the meat sector with iFarmer-a
@@ -62,7 +62,7 @@ function Testimonial() {
           directly to the consumers. At the supply end we also partnered with
           more than 550 small and medium farmers who raise their product for us.
         </p>
-        <div className="mt-10 flex justify-evenly items-center gap-10 h-fit">
+        <div className="mt-10 flex justify-evenly items-center gap-2 px-2 lg:gap-10 h-fit">
           <div>
             <img src="client1.png" alt="client1" />
           </div>

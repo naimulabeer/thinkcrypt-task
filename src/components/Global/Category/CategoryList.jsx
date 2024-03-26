@@ -4,22 +4,24 @@ function CategoryList() {
   const products = useProducts();
 
   return (
-    <div className="w-2/3 grid grid-cols-3 gap-4">
+    <div className="lg:w-2/3 grid grid-cols-2 lg:grid-cols-3 gap-4 px-2">
       {products.slice(0, 12).map((product) => (
         <div key={product._id} className="border rounded-lg ">
           <img src="product1.png" alt="Product" className="w-full" />
           <h2 className="text-lg font-semibold text-center mt-2">
             {product.name}
           </h2>
-          <p className="text-center text-2xl font-bold">৳ {product.price}/kg</p>
+          <p className="text-center lg:text-2xl font-bold">
+            ৳ {product.price}/kg
+          </p>
           <div className="flex justify-center mt-8">
-            <div className="flex items-center bg-[#424242] text-white  px-4 py-2 gap-4">
+            <div className="flex items-center bg-[#424242] text-white px-2 py-1 lg:px-5 lg:py-2 gap-4">
               <button className="focus:outline-none">-</button>
-              <span className="mx-2">1 kg</span>
+              <span className="mx-2 text-xs">1 kg</span>
               <button className="focus:outline-none">+</button>
             </div>
 
-            <div className="bg-red-500 text-white flex gap-3 justify-center items-center text-sm px-4 py-2 focus:outline-none cursor-pointer">
+            <div className="bg-red-500 text-white flex gap-3 justify-center items-center text-sm px-2 py-1 lg:px-5 lg:py-2 focus:outline-none cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="14"
@@ -32,14 +34,14 @@ function CategoryList() {
                   fill="white"
                 />
               </svg>
-              <h1>ADD TO CART</h1>
+              <h1 className="text-xs">ADD TO CART</h1>
             </div>
           </div>
         </div>
       ))}
 
-      <div className="flex justify-center text-center mt-10">
-        <button className=" px-16 py-2 font-semibold bg-[#dedcdc] ">
+      <div className="flex justify-center text-center mt-10 mb-4">
+        <button className="px-4 lg:px-16 py-2 font-semibold bg-[#dedcdc] ">
           Load More
         </button>
       </div>
