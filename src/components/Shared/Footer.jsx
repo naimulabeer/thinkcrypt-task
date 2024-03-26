@@ -15,7 +15,8 @@ function Footer() {
             Corporate <span className="text-red-500">Office</span>
           </span>
           <p className="w-2/3">
-            House 42, Road 6, Mohammadi Housing Society Mohammadpur, Dhaka- 1207
+            House 42, Road 6, Mohammadia Housing Society Mohammadpur, Dhaka-
+            1207
           </p>
           <p className="font-bold">
             Processing <span className="text-red-500">Center</span>

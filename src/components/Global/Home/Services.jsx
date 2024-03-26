@@ -1,10 +1,15 @@
+import PageTitle from "../../Shared/PageTitle";
+
 function Services() {
   return (
-    <div className="mt-14 mb-14 px-40">
-      <h1 className="text-5xl font-bold text-[#4C372E]">Our Core Values</h1>
-      <div className="border-red-500 bg-red-500 rounded-full w-16 h-1 flex-shrink-0"></div>
+    <div className="mt-14 mb-14 lg:px-40 px-4">
+      <PageTitle
+        mainText="Our Core Values"
+        color="#4C372E"
+        secondaryColor="red-500"
+      />
 
-      <div className="mt-20 flex justify-between">
+      <div className="mt-20 flex flex-col lg:flex-row justify-between">
         <div className="flex flex-col gap-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +30,7 @@ function Services() {
             <div className="border-red-500 bg-red-500 rounded-full w-5 h-1 flex-shrink-0"></div>
           </div>
 
-          <p className="w-60">
+          <p className="lg:w-60">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut quis nostrud
           </p>
@@ -67,7 +72,7 @@ function Services() {
             <div className="border-red-500 bg-red-500 rounded-full w-5 h-1 flex-shrink-0"></div>
           </div>
 
-          <p className="w-60">
+          <p className="lg:w-60">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut.
           </p>
@@ -118,7 +123,7 @@ function Services() {
             <div className="border-red-500 bg-red-500 rounded-full w-5 h-1 flex-shrink-0"></div>
           </div>
 
-          <p className="w-60">
+          <p className="lg:w-60">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut.
           </p>
@@ -134,11 +139,12 @@ function Services() {
       </div>
 
       <div className="mt-14">
-        <h1 className="text-5xl font-bold text-[#4C372E]">
-          Our Procurement Cycle
-        </h1>
-        <div className="border-red-500 bg-red-500 rounded-full w-16 h-1 flex-shrink-0"></div>
-        <p className="mt-20 text-[#424242] text-xl">
+        <PageTitle
+          mainText="Our Procurement Cycle"
+          color="#4C372E"
+          secondaryColor="red-500"
+        />
+        <p className="mt-20 text-[#424242] lg:text-xl">
           We have also partnered with some other farms in order to meet our
           retailers, clients and customer’s demand. After a product is placed
           the livestocks are processed by professionals in our processing unit

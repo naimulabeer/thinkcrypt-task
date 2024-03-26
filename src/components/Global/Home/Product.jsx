@@ -1,10 +1,15 @@
+import PageTitle from "../../Shared/PageTitle";
+
 function Product() {
   return (
-    <div className="mt-20 mb-14 px-40">
-      <h1 className="text-5xl font-bold text-[#4C372E]">Product Categories</h1>
-      <div className="border-red-500 bg-red-500 rounded-full w-16 h-1 flex-shrink-0"></div>
+    <div className="mt-20 mb-14 lg:px-40 px-6">
+      <PageTitle
+        mainText="Product Categories"
+        color="#424242"
+        secondaryColor="red-500"
+      />
 
-      <div className="flex justify-between">
+      <div className="flex lg:flex-row flex-col justify-between">
         <div className="mt-20 w-[310px] h-fit border rounded bg-[#F1F1F194] px-14 py-10">
           <div className="flex flex-col justify-center items-center gap-6">
             <img className="w-24 h-24" src="chicken.png" alt="chicken" />

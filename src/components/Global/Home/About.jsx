@@ -1,13 +1,18 @@
+import PageTitle from "../../Shared/PageTitle";
+
 function About() {
   return (
-    <div className="mt-20 flex gap-20">
-      <img className="w-1/2 h-[90vh]" src="banner2.png" alt="banner2" />
-      <div className="w-1/3">
+    <div className="mt-20 flex flex-col lg:flex-row gap-20">
+      <img className="lg:w-1/2 lg:h-[90vh]" src="banner2.png" alt="banner2" />
+      <div className="lg:w-1/3">
         <div className="mt-20 mb-10">
-          <h1 className="text-4xl font-bold text-[#4C372E]">Who We are</h1>
-          <div className="border-red-500 bg-red-500 rounded-full w-16 h-1 flex-shrink-0"></div>
+          <PageTitle
+            mainText="Who We Are"
+            color="#424242"
+            secondaryColor="red-500"
+          />
         </div>
-        <div className="w-[600px] text-lg font-medium mb-10">
+        <div className="lg:w-[600px] text-lg font-medium mb-10">
           <p className="flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +44,7 @@ function About() {
             </svg>
           </p>
         </div>
-        <p className="w-[600px] px-2">
+        <p className="lg:w-[600px] px-2">
           The core focus for LiveFresh Agro is to create value for our
           stakeholders i.e. small and medium holding farmers, contract farmers
           sustainably by bring the market to resources. We have extensive

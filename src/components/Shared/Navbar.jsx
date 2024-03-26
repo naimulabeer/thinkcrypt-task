@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="flex justify-between items-center fixed z-10 w-full backdrop-blur-sm">
+    <div className="flex justify-between items-center fixed z-10 lg:w-full backdrop-blur-sm">
       <div className="flex justify-center cursor-pointer">
         <img src="src/assets/icons/burgericon.svg" alt="burgericon" />
         <div className="flex gap-2 px-4 py-2 text-xs border border-white border-opacity-40">

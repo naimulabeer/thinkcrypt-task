@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function PageTitle({ mainText, highlightText, color, secondaryColor }) {
   return (
     <div>
-      <h1 className={`text-5xl font-bold text-${color}`}>
+      <h1 className={`lg:text-5xl text-3xl font-bold text-${color}`}>
         {mainText}{" "}
         <span className={`text-${secondaryColor}`}>{highlightText}</span>
       </h1>
